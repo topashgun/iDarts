@@ -13,7 +13,6 @@ class MarketValue extends Component {
         let quantity = parseFloat(this.props.Quantity);
         let price = parseFloat(this.props.Price.replace("$", "").replace(",", ""));
         let marketValue = quantity * price;
-        console.log("marketValue : " + marketValue);
         return formatter.format(marketValue);
     }
     render() {

@@ -38,7 +38,6 @@ const options = {
             },
             label: function (tooltipItem, data) {
                 var dataset = data['datasets'][0];
-                console.log(dataset)
                 return formatter.format(dataset['data'][tooltipItem['index']])
             }
         }
