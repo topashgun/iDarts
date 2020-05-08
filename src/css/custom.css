@@ -1,0 +1,90 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+body,
+html {
+  font-size: 30px;
+}
+.scripClass {
+  font-size: 12px;
+  color: darkgray;
+}
+.priceClass {
+  color: #48bdc0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.barsIcon {
+  color: darkgray;
+  font-size: 18px;
+}
+.isharesClass {
+  color: #a2b780;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.indexClass {
+  color: #4a4a4a;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.qtyCstAmtTable td {
+  font-size: 12px;
+  padding: 0;
+  color: darkgray;
+}
+.qtyCstAmtTable tr td:first-child {
+  padding-right: 10px;
+  width: 120px !important;
+}
+.qtyCstAmtTable tr td:last-child {
+  padding-right: 10px;
+  width: 120px !important;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+.marketValue {
+  margin: 0;
+  color: #4a4a4a;
+  font-size: 12px;
+  font-weight: bold;
+}
+.portfolioValue {
+  color: darkgray;
+  font-size: 12px;
+}
+.ofPortfolioValueProgress {
+  height: 10px;
+  border-radius: 3px;
+}
+.upDownCaret {
+  padding-right: 5px;
+  font-size: 16px;
+}
+.borderRightRadiusZero {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.borderLeftRadiusZero {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.buySellButton {
+  padding: 3px 0;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 3px !important;
+}
+.buySellButton:focus {
+  box-shadow: none !important;
+}
+.dataRow {
+  padding: 7.5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 4px 2px;
+  border-radius: 3px;
+}
+@media screen and (max-width: 576px) {
+  #doughtnutDiv {
+    height: 400px !important;
+  }
+}
